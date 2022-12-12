@@ -3,3 +3,4 @@ dist/
 .venv/
 .coverage
 .pytest_cache/
+coverage.xml
