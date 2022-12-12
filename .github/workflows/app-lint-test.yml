@@ -24,6 +24,7 @@ jobs:
       - name: Run selfcheck and linter
         run: |
           make check
+          poetry install
       - name: Test & publish code coverage
         uses: paambaati/codeclimate-action@v2.7.4
         env:
