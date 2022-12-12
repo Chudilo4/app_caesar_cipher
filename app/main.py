@@ -23,9 +23,9 @@ def encryptionCaesar(text: str, shift: int) -> str:
                     res += dictionary[i + shift]
         elif t in symbol:
             res += t
-        # Если символа нет в словаре то добавляем его к зашифрованному тексту
+        # Если символа нет в словарях то пропускаем его
         else:
-            print(f'Такого символа нет в словаре: {t}')
+            pass
     # Возвращаем зашифрованный текст
     return res
 
@@ -52,8 +52,8 @@ def decryptionCaesar(text: str, shift: int) -> str:
                     res += dictionary[(i - shift) % len(dictionary)]
         elif t in symbol:
             res += t
-        # Если символа нет в словаре то добавляем его к зашифрованному тексту
+        # Если символа нет в словарях то пропускаем его
         else:
-            print(f'Такого символа нет в словаре: {t}')
+            pass
             # Возвращаем зашифрованный текст
     return res

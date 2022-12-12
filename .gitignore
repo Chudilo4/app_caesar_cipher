@@ -4,3 +4,5 @@ dist/
 .coverage
 .pytest_cache/
 coverage.xml
+cc-reporter
+.gitignore
