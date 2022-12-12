@@ -30,12 +30,5 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: cd6d2b3e09a7ff1c68ac0f43b5a0d183edefadd131e3476e114aaaede8f060b3
         with:
-          coverageCommand: test cov
+          coverageCommand: test
           debug: tru
-      - name: Commit CHANGELOG.md
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          PATH: 'CHANGELOG.md'
-          COMMIT_MESSAGE: 'docs(CHANGELOG): update release notes'
-          TYPE: 'feat:Feature,fix:Bug Fixes,docs:Documentation,refactor:Refactor,perf:Performance Improvements'

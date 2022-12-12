@@ -7,10 +7,8 @@ def test_encryptionCaesar():
     cipher3 = encryptionCaesar('', shift=3)
     cipher4 = encryptionCaesar('ю', shift=3)
     cipher5 = encryptionCaesar(' ', shift=3)
-    cipher6 = encryptionCaesar('R', shift=120)
     assert cipher == "кг лптзугхсуг"
     assert cipher2 == 'в'
     assert cipher3 == ""
     assert cipher4 == 'б'
     assert cipher5 == ' '
-    assert cipher6 == ''

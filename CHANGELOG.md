@@ -1,0 +1,18 @@
+- test
+- Изменил app-lint-test.yml
+- Тест автокомита в CHANGELOG.md
+- Тест автокомита в CHANGELOG.md
+- Delete cc-reporter
+- Добавил в .gitignore cc-reporter и .gitignore Поправил в функциях что если символа нет в словарях то пропускаем его
+- автокомит в CHANGELOG
+- Добавление автокомита в CHANGELOG
+- Automated Change
+- Добавление автокомита в CHANGELOG
+- add poetry install
+- add poetry install
+- delete make install from app-lint-test.yml add budget action GIT CHANGELOG.md add commit
+- add badget from README.md add commit from CHANGELOG.md add makefile coverage add app-lint-test.yml CI add .gitignore coverage.xml
+- test
+- first commit
+- first commit
+- first commit

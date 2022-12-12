@@ -1,9 +1,13 @@
 lint:
 	poetry run flake8
-test:
-	poetry run pytest -vv
-check: selfcheck test lint
+
+check: selfcheck test lint changelog
+
 selfcheck:
 	poetry check
-test cov:
+
+test:
 	poetry run pytest --cov=app --cov-report xml
+
+changelog:
+	git log --pretty="- %s" > CHANGELOG.md
