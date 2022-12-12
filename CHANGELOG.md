@@ -1,3 +1,4 @@
+- add badget from README.md add commit from CHANGELOG.md add makefile coverage add app-lint-test.yml CI add .gitignore coverage.xml
 - test
 - first commit
 - first commit
