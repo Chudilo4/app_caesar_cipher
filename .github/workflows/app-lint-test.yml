@@ -30,7 +30,7 @@ jobs:
         env:
           CC_TEST_REPORTER_ID: cd6d2b3e09a7ff1c68ac0f43b5a0d183edefadd131e3476e114aaaede8f060b3
         with:
-          coverageCommand: make test
+          coverageCommand: test cov
           debug: tru
       - name: Commit CHANGELOG.md
         uses: stefanzweifel/git-auto-commit-action@v4
