@@ -4,6 +4,7 @@
     <option name="poetryVirtualenvPaths">
       <set>
         <option value="$USER_HOME$/.cache/pypoetry/virtualenvs/pythonproject2-wJIWneIC-py3.10/bin/python" />
+        <option value="$USER_HOME$/.cache/pypoetry/virtualenvs/app-caesar-cipher-o8pRbJ7B-py3.10/bin/python" />
       </set>
     </option>
   </component>
