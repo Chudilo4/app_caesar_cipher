@@ -35,5 +35,4 @@ jobs:
       - name: Commit CHANGELOG.md
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-            commit_message: Automated Change
-            file_pattern: CHANGELOG.md
+            run: echo "git log --pretty="- %s" > CHANGELOG.md"
