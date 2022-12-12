@@ -1,3 +1,5 @@
+- Вернул коменты
+- test
 - test
 - отредактирова codecoverage в app-lint-test.yml
 - добавил setup.cfg для линтера добавил в makefile добавление комитов в CHANGELOG.md убрал to complex в функциях убрал в app-lint-test.yml автодобавление коммитов в CHANGELOG.md
